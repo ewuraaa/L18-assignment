@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scrollspy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" href="#animalfarm">Animal farm</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#Dogs">Dogs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Horses</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#scrollspyHeading3">Pigs</a></li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading4">Hamster</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading5">Birds</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1">Sneak peak into a dog's world</h4>
+        <p>You can call the night owls, and a man's bestfriend. If loyalty was an animal it would be dogs in every lifetime. Their bubbly and empathetic nature makes them so profound and emotionally intelligent beings.</p>
+        <h4 id="scrollspyHeading2">Beyond the saddle</h4>
+        <p>Beyond the saddle is the gentle giant, is the horse. A strong, majestic fellow and old time mode of transport for man.</p>
+        <h4 id="scrollspyHeading3">The Secret Life of Pigs</h4>
+        <p>Smarter, sillier and more social than you think</p>
+        <h4 id="scrollspyHeading4">Wheeling and Sqealing</h4>
+        <p>Why hamsters make everyone smile</p>
+        <h4 id="scrollspyHeading5">Feathers, Flight and Freedom</h4>
+        <p>Why birds capture our imagination</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
